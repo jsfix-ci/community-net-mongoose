@@ -1,0 +1,27 @@
+{
+  "name": "community-net-mongoose",
+  "version": "1.0.0",
+  "description": "Community plugin for apps that use MongoDB and Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdelhommer/community-net-mongoose.git"
+  },
+  "keywords": [
+    "community",
+    "network",
+    "grassroot"
+  ],
+  "author": "Rick Delhommer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdelhommer/community-net-mongoose/issues"
+  },
+  "homepage": "https://github.com/rdelhommer/community-net-mongoose#readme",
+  "dependencies": {
+    "mongoose": "^4.11.7"
+  }
+}
