@@ -20,13 +20,13 @@ var toHelpQueryDelegate = function (user) {
 
 // The interface requires an object with the following keys
 // name
-// contact
+// email
 // needs
 // skills
 var docCoercionDelegate = function (user) {
   return {
     name: user.displayName,
-    contact: user.email,
+    email: user.email,
     needs: user.needs,
     skills: user.skills
   };
