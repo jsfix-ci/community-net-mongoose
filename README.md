@@ -7,7 +7,8 @@ npm install community-net-mongoose
 ```
 
 ## Description
-The MongooseFacade constructor takes 4 arguments:
+The MongooseFacade constructor takes 5 arguments:
+* mongoose - The mongoose module
 * userSchemaName - The name of the mongoose User schema
 * subNetQueryDelgate - A delegate that builds a query to find users in the current user's sub-network.  It has a single parameter that corresponds to a user mongoose document
 * toHelpQueryDelegate - A delegate that builds a query to find users that the current user can help.  It has a single parameter that corresponds to a user mongoose document

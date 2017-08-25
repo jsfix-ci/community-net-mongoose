@@ -1,4 +1,5 @@
 var MongooseFacade = require('community-net-mongoose');
+var mongoose = require('mongoose');
 
 // Finds all other users within the same zip code
 // Assumes that the User Schema has a zip code property named 'zip'
@@ -32,4 +33,4 @@ var docCoercionDelegate = function (user) {
   };
 };
 
-var facade = new MongooseFacade('User', subNetQueryDelegate, toHelpQueryDelegate, docCoercionDelegate);
+var facade = new MongooseFacade(mongoose, 'User', subNetQueryDelegate, toHelpQueryDelegate, docCoercionDelegate);
