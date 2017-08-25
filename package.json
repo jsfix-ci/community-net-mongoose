@@ -4,7 +4,7 @@
   "description": "Community plugin for apps that use MongoDB and Mongoose",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,13 @@
   "homepage": "https://github.com/rdelhommer/community-net-mongoose#readme",
   "dependencies": {
     "mongoose": "^4.11.7"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0"
+  },
+  "ava": {
+    "files": [
+      "tests/*.js"
+    ]
   }
 }
