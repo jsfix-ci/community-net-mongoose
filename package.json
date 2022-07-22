@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/rdelhommer/community-net-mongoose#readme",
   "dependencies": {
-    "mongoose": "^4.11.7"
+    "mongoose": "^5.13.14"
   },
   "devDependencies": {
     "ava": "^0.22.0"
